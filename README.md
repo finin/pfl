@@ -1,2 +1,6 @@
 # pfl
-Source code for the Pedagogical Fram Language from a 1986 article in AI Expert
+Source code for the Pedagogical Frame Language from a 1986 article in AI Expert.
+
+Tim Finin, [Understanding Frame Languages](https://ebiquity.umbc.edu/paper/html/id/1085/Understanding-Frame-Languages), AI Expert, v1 n3,4, 1986.
+
+Knowledge representation is fundamental to AI. Over the past 25 years, many special-purpose languages have been developed to represent knowledge in AI systems. Frame-based representation languages (FBRLs) form a widely popular class. In part one of this article, we discuss the concepts underlying frame-based representation languages and introduce a particular language, PFL (Pedagogical Frame Language). In part two, we give a functional description of PFL, discuss implementational issues, and exhibit portions of the Common Lisp code that implements PFL. PFL was written for pedagogical purposes - it does not attempt to be very powerful, expressive, or efficient. Although PFL is quite simple (amounting to less than 250 lines of commented Common Lisp code), it is sufficiently powerful to support the representational needs of many AI applications. The purpose of PFL and this article is twofold: (1) to describe in the most concrete terms possible (e.g., code) some of the concepts and mechanisms that underly frame-based representation languages and (2) to demonstrate some of the features of Common Lisp in the context of a complete, useful program.
